@@ -1,0 +1,11 @@
+.main {
+  width: 100%;
+  display: grid;
+  height: 90vh;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 100%;
+}
+.App {
+  overflow: hidden;
+  height: 100vh;
+}

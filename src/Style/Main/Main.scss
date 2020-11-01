@@ -1,0 +1,155 @@
+.main__contents {
+  padding: 70px;
+  .sub-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  h1 {
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  p {
+    max-width: 700px;
+    color: #78849e;
+  }
+  .na {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    p {
+      color: #545454;
+    }
+  }
+  .script-todo-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 680px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border: solid 0.3px #85858557;
+    padding: 15px;
+    align-items: center;
+    img {
+      object-fit: contain;
+      height: 34px;
+      padding-right: 20px;
+    }
+  }
+
+  button {
+    height: 48px;
+    border-radius: 8px;
+    border: solid 2px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    outline: none;
+    cursor: pointer;
+  }
+  .copy-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #665eff;
+    p {
+      color: white;
+    }
+    p:first-of-type {
+      padding-right: 10px;
+      margin-left: -10px;
+    }
+  }
+  .nxt {
+    background-color: #665eff;
+    color: white;
+  }
+  .bck {
+    margin-right: 10px;
+    &:hover {
+      border-radius: 6px;
+      background: #665eff86;
+      color: white;
+    }
+  }
+  .bck,
+  .step-prog {
+    background-color: transparent;
+    border: none;
+    padding-right: 10px;
+  }
+  .step-prog {
+    cursor: default;
+    width: 160px;
+    .MuiMobileStepper-dot {
+      height: 10px;
+      width: 10px;
+    }
+    .nav-prog {
+      color: #78849e;
+      padding-right: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-right: 1px solid #78849e;
+      border-radius: 0px;
+    }
+  }
+  .avira {
+    color: #3498fd;
+    cursor: pointer;
+  }
+  small {
+    margin-top: 20px;
+  }
+}
+.foot {
+  position: absolute;
+  bottom: 120px;
+  right: 110px;
+}
+
+.stepper {
+  background-color: transparent;
+  background: transparent;
+  width: 0px !important;
+}
+
+.add-host {
+  display: flex;
+  border: 1px solid rgb(226, 226, 226);
+  align-items: center;
+  padding: 22px;
+  border-radius: 6px;
+  justify-content: space-evenly;
+  width: 630px;
+  .bhv {
+    position: absolute;
+    color: #000;
+    margin-top: -70px;
+    margin-left: -550px;
+    padding: 5px;
+    background-color: white;
+  }
+  select {
+    width: 250px;
+    height: 46px;
+    padding: 10px;
+    outline: none;
+    border-radius: 6px;
+    background-color: rgb(238, 238, 238);
+    border: 1px solid rgb(224, 224, 224);
+  }
+  input {
+    outline: none;
+    border-radius: 6px;
+    height: 24.8px;
+    width: 250px;
+    padding: 10px;
+    background-color: rgb(238, 238, 238);
+    border: 1px solid rgb(224, 224, 224);
+  }
+}
+.asdv {
+  cursor: pointer;
+}

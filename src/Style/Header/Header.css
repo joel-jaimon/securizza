@@ -1,0 +1,107 @@
+.header {
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0px;
+  padding: 15px;
+  border-bottom: 1px solid #85858557;
+}
+
+.header .logo img {
+  height: 70px;
+}
+
+.header .user__panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .user__panel span {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-left: 1px solid #85858557;
+  margin-left: 10px;
+}
+
+.header .user__panel .vvv {
+  border: none;
+  width: 300px;
+}
+
+.header .user__panel .vvv input {
+  width: 100%;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+.header .user__panel .vvv input::-webkit-input-placeholder {
+  color: #8585858f;
+}
+
+.header .user__panel .vvv input:-ms-input-placeholder {
+  color: #8585858f;
+}
+
+.header .user__panel .vvv input::-ms-input-placeholder {
+  color: #8585858f;
+}
+
+.header .user__panel .vvv input::placeholder {
+  color: #8585858f;
+}
+
+.header .user__panel span:last-of-type {
+  padding-right: 10px;
+}
+
+.search-icon,
+.notfi {
+  color: #8585857a;
+}
+
+.notfi {
+  margin: 10px;
+  padding: 8px;
+}
+
+.search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.MuiBadge-anchorOriginTopRightRectangle {
+  -webkit-transform: scale(1) translate(-100%, 100%) !important;
+          transform: scale(1) translate(-100%, 100%) !important;
+}
+
+.MuiBadge-badge {
+  width: 20px !important;
+  height: 20px !important;
+}
+/*# sourceMappingURL=Header.css.map */
